@@ -1,4 +1,4 @@
-# calculadora-orcamento-pessoal
+# Calculadora-Orcamento-Pessoal
 A aplicação permite que os usuários insiram informações sobre seus produtos e serviços, e realiza os cálculos necessários para determinar o custo total.
 
 # 🧮 Calculadora de Orçamento Pessoal
