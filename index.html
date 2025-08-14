@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calculadora de Orçamento Pessoal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topo">
+    <h1>Calculadora de Orçamento Pessoal</h1>
+    <p class="subtitulo">Controle suas receitas, despesas e saldo.</p>
+  </header>
+
+  <main class="container">
+    <section class="formulario">
+      <input type="text" id="descricao" placeholder="Descrição" />
+      <input type="number" id="valor" placeholder="Valor" />
+      <select id="tipo">
+        <option value="receita">Receita</option>
+        <option value="despesa">Despesa</option>
+      </select>
+      <button id="adicionar">Adicionar</button>
+    </section>
+
+    <section class="lista">
+      <h2>Movimentações</h2>
+      <ul id="movimentacoes"></ul>
+    </section>
+
+    <section class="saldo">
+      <h2>Saldo atual: R$ <span id="saldo">0.00</span></h2>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    Feito com ❤ para organizar suas finanças
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f8f9fa;
+}
+
+.topo {
+  background: #198754;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.subtitulo {
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.formulario {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.formulario input,
+.formulario select {
+  padding: 0.5rem;
+  flex: 1;
+}
+
+.formulario button {
+  padding: 0.5rem 1rem;
+  background: #198754;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background: #145c32;
+}
+
+.lista {
+  background: white;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.lista ul {
+  list-style: none;
+  padding: 0;
+}
+
+.lista li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.saldo {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.rodape {
+  text-align: center;
+  padding: 1rem;
+  background: #e9ecef;
+  margin-top: 1rem;
+}
